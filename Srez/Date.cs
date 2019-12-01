@@ -92,23 +92,18 @@ namespace Srez
 
         public int f()
         {
-            int res = this.Hour * 60 + this.minutes;
+            int res = this.Hour * 60 + this.Minutes;
             return 24 * 60 - res;
         }
 
         public void f2()
         {
-            this.minutes += 100;
-            while(minutes > 60)
-            {
-                minutes -= 60;
-                ++hour;
-            }
+            this.Minutes += 100;
         }
 
         public int mins()
         {
-            return this.hour * 60 + this.minutes;
+            return this.Hour * 60 + this.Minutes;
         }
 
         public override string ToString()

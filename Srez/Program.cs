@@ -10,17 +10,19 @@ namespace Srez
     {
         static void Main(string[] args)
         {
-            /*
-            Date time = new Date(23, 38, 72);
-            Console.WriteLine(time.f());
-            time.f2();
-            Console.WriteLine(time.ToString());
-            */
-            Complex start = new Complex(32, 16);
-            Console.WriteLine(start);
-            Console.WriteLine(start.f(2));
-            Console.WriteLine(start.abs());
-            Console.WriteLine(start.reverse());
+            
+            //Date time = new Date(23, 38, 12);
+            //Console.WriteLine(time.f());
+            //time.f2();
+            //Console.WriteLine(time.ToString());
+            
+            //Complex start = new Complex(32, 16);
+            //Console.WriteLine(start);
+            //Console.WriteLine(start.f(2));
+            //Console.WriteLine(start.abs());
+            //Console.WriteLine(start.reverse());
+
+
             Console.ReadKey();
         }
     }
